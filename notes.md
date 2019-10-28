@@ -18,3 +18,9 @@
 -     ==> const port = 8000
 -     ==> server.listen(port, () => console.log('listening on port 8000'))
 -     ==> server.get('/', (req, res) => { res.send('Welcome to node server') })
+
+<!-- * const db = require('./data/name.js')
+
+* db.fing().then(data => {
+* res.send(data)
+* }) -->
