@@ -2,7 +2,12 @@ const express = require("express");
 
 const server = express(); // create a server
 
-// route handlers
+// route/route handlers
+
+// handles GET requests on localhost:8000
+server.get("/", (req, res) => {
+  res.send("Hello Node 23");
+});
 
 // listen for requests on particular port on localhost
 const port = 8000;

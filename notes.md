@@ -13,3 +13,8 @@
 ## Basic Express Server
 
 - install 'express' as a production dependency ==> 'npm i express'
+- add express to index.js ==> const express = require('express')
+-     ==> const server = express()
+-     ==> const port = 8000
+-     ==> server.listen(port, () => console.log('listening on port 8000'))
+-     ==> server.get('/', (req, res) => { res.send('Welcome to node server') })
